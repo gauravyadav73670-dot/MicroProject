@@ -44,7 +44,7 @@ nav ul li {
     padding: 0;
 }
 nav ul li a {
-    color: #f4f4f9;
+    color: #bbbbd6;
     font-weight: bold;
 
 }
@@ -60,7 +60,7 @@ nav ul li a:hover {
 
 /* 2. HEADER - The top dark bar */
 header {
-    background-color: #637396; 
+    background-color: #537cd4; 
     color: white;
     text-align: center;
     padding: 60px 20px; 
@@ -85,8 +85,8 @@ section {
 
 /* 4. HEADINGS - Adding a small accent line */
 h2 {
-    color: #2c3e50;
-    border-bottom: 3px solid #3498db;
+    color: #3177be;
+    border-bottom: 3px solid #157f73;
     display: inline-block;
     padding-bottom: 5px;
 }
@@ -98,10 +98,10 @@ ul {
 }
 
 li {
-    background: #e8f4fd;
+    background: #259897;
     margin: 10px 0;
     padding: 10px;
-    border-left: 5px solid #3498db; 
+    border-left: 5px solid #175175; 
     font-weight: bold;
 }
 
@@ -122,5 +122,5 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: 0.9rem;
-    color: #666;
+    color: #825151;
 }
