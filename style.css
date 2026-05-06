@@ -16,6 +16,47 @@ body {
     background-color: #f4f4f9; 
     color: #333;
 }
+nav {
+    display: flex;justify-content: space-between;
+    align-items: center;
+    background-color: #282852;
+    color:white;
+    padding:15px 30px;
+}
+nav h2 {
+    margin: 0;
+    border: none;
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: 1px;
+    letter-spacing: 1px;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+nav ul li {
+    background: none;
+    border: none;
+    padding: 0;
+}
+nav ul li a {
+    color: #f4f4f9;
+    font-weight: bold;
+
+}
+nav ul li a:hover {
+    color: aqua;
+}
+#projects p {
+    font-style: italic;
+    color: #0a507f;
+
+}
+
 
 /* 2. HEADER - The top dark bar */
 header {
