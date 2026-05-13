@@ -71,6 +71,16 @@ header h1 {
     font-size: 2.5rem;
     letter-spacing: 2px;
 }
+.profile-image{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit:cover;
+    border: 5px solid white;
+    margin-bottom:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,3) ;
+}
+
 
 
 /* 3. SECTIONS - Creating white cards for content  */
@@ -80,13 +90,13 @@ section {
     padding: 30px;
     background: white;
     border-radius: 8px; 
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    box-shadow: 0 4px 8px rgba(178, 37, 37, 0.1); 
 }
 
 /* 4. HEADINGS - Adding a small accent line */
 h2 {
     color: #3177be;
-    border-bottom: 3px solid #157f73;
+    border-bottom: 3px solid #157f5d;
     display: inline-block;
     padding-bottom: 5px;
 }
